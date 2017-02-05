@@ -1,0 +1,36 @@
+{
+  "name": "node-pusher-notifyer-channel",
+  "version": "1.0.0",
+  "description": "Pusher channel adapter for node-notifyer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "keywords": [
+    "notifications",
+    "node",
+    "notifyer",
+    "pusher",
+    "channels"
+  ],
+  "author": "Maykol Purica <puricamaykol@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-yuidoc": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "pusher": "^1.5.1"
+  }
+}
